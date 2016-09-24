@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cameraActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.videorecording.util.TakePictureActivity">
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="com.videorecording.fragment.CameraFragment"
+        android:layout_gravity="center_horizontal|bottom"
+        tools:layout="@layout/camera_fragment" />
+
+    <fragment
+        android:id="@+id/cameraControlFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="com.videorecording.fragment.CameraControlFragment"
+        android:layout_gravity="bottom|right"
+        tools:layout="@layout/camera_control_fragment" />
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/streamActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    tools:context="com.videorecording.VideoActivity">
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="com.videorecording.fragment.VideoFragment"
+        android:layout_gravity="center_horizontal|bottom"
+        tools:layout="@layout/video_fragment" />
+
+
+    <fragment
+        android:id="@+id/videoControlFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="com.videorecording.fragment.VideoControlFragment"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60dp"
+        tools:layout="@layout/video_control_fragment" />
+
+
+</FrameLayout>

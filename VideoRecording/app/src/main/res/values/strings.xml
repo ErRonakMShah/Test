@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Camera APP</string>
+    <string name="title_activity_take_picture">TakePictureActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_takepicutre">Take Picture</string>
+    <string name="title_recordvideo">Record Video</string>
+    <string name="title_activity_record_video">RecordVideoActivity</string>
+    <string name="toast_Burstmode">Burst mode start</string>
+    <string name="msg_flasherror">Device does not support flash light!</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>
